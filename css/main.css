@@ -1,25 +1,40 @@
-*{
-	/*outline: 1px solid green;*/font-family:cursive;
-}
-header , .hero , .contenido
+/*header , .hero , .contenido
 {
 	overflow: hidden;
 }
-.degradado {
-	background: rgba(38, 38, 38, 0.50);
-	height: 660px;
-	position: relative;
-}
-header
+.*/
+/*CLASES GENERALES*/
+.fondo , .degradado
 {
-	background: url('../image/large.jpg');
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	height: 500px;
-	color: white;	
+    height: 520px;
+    color: white;
 }
+/*ESTE ES EL HEADER*/
+
+.fondo
+{
+    background: url('../image/large.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.degradado
+{
+    overflow: hidden;
+    outline: 1px solid green;
+    background-color: rgba(38, 38, 38, 0.50); 
+}
+ .banner
+{
+    
+    background-color: #4e7fb8;
+    opacity: 0.6;
+    width: 100%;
+
+}
+/*
 .frase
 {
 	margin: 0 auto;
@@ -48,10 +63,6 @@ header
     opacity: 0.9;
     position: relative;
     bottom: 100px;
-    /*position:absolute; El div será ubicado con relación a la pantalla*/
-	/*left:0px; /*A la derecha deje un espacio de 0px*/
-	/*right:0px; /*A la izquierda deje un espacio de 0px*/
-	/*bottom:0px; /*Abajo deje un espacio de 0px*/
 }
 .prueba button
 {
@@ -61,12 +72,9 @@ header
     color: white;
     border-radius: 2px;
 
-}
-/*ET ES LA HERO SECTION*/
-.hero
-{
-	
-}
+}*/
+/*ET ES LA HERO SECTION
+
 .icon-container{
     width: 150px;
     height: 150px;
@@ -80,7 +88,7 @@ header
     color: #a1c2ff;
 }
 .hero h1{
-    text-align: center;
+   
     color: #a1c2ff;
     font-size: 28px;
     margin-bottom: 40px;
@@ -104,7 +112,7 @@ header
     position: relative;
     top: 130px;
 }
-/*ESTA ES LA PARTE DE CONTENIDO*/
+/*ESTA ES LA PARTE DE CONTENIDO
 .contenido h1{
     color: #b1d3ff;
     text-align: center;
@@ -115,8 +123,7 @@ header
     width: 680px;
     left: -110px;
     
-}/*IMAGEN DE LOS ICONOS*/
-.imagen{
+}/*IMAGEN DE LOS ICONOS.imagen{
     background: url(../image/sec-2.jpg)no-repeat;
     background-size:cover;
     width: 390px;
@@ -240,8 +247,7 @@ margin: 0 auto;
     width: 240px;
     font-size: 25px;
     margin-top: 40px;
-    margin-bottom: 30px;
-    
+    margin-bottom: 30px;   
 }
 .relleno .row p{
     font-size: 12px;
@@ -258,7 +264,8 @@ margin: 0 auto;
     background-color:#4e7fb8; 
     padding: 3px 25px 3px 25px;
     top: 40px;
-}
+}*/
+
 /**AQU ESTA EL FOOTER*/
 footer{
     
