@@ -1,12 +1,311 @@
 *{
-	outline: 1px solid green;
+	/*outline: 1px solid green;*/font-family:cursive;
+}
+body
+{
+
+}
+header , .hero , .contenido
+{
+	overflow: hidden;
+}
+.degradado {
+	background: rgba(38, 38, 38, 0.50);
+	height: 660px;
+	position: relative;
 }
 header
 {
-	padding-top: 20px;
-	background: url('../image/large.jpg')  no-repeat;
+	background: url('../image/large.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	background-size: cover;
 	height: 500px;
+	color: white;	
+}
+.frase
+{
+	margin: 0 auto;
+	color: white;
+	position: relative;
+	top: 100px;
+}
+.cabeza
+{
+	padding: 10px;
+}
+.menu li a
+{
+	text-decoration: none;
+	color: white;
+}
+.prueba
+{
+	color: white;
+	padding: 10px;
+}
+.pruebalo
+{	
+	padding: 10px;
+	background-color: #4e7fb8;
+    opacity: 0.9;
+    /*position:absolute; El div será ubicado con relación a la pantalla*/
+	/*left:0px; /*A la derecha deje un espacio de 0px*/
+	/*right:0px; /*A la izquierda deje un espacio de 0px*/
+	/*bottom:0px; /*Abajo deje un espacio de 0px*/
+}
+.prueba button
+{
+ 	border:2px solid white;
+ 	background-color: #4e7fb8;
+    opacity: 0.9;
+    color: white;
+    border-radius: 2px;
+
+}
+/*ET ES LA HERO SECTION*/
+.hero
+{
+	
+}
+.icon-container{
+    width: 150px;
+    height: 150px;
+    margin:0 auto;
+    font-size: 50px;
+    text-align: center;
+    box-shadow: -3px 3px 12px black;
+    padding: 50px;
+    margin-bottom: 20px;
+    border-radius: 200px;
+    color: #a1c2ff;
+}
+.hero h1{
+    text-align: center;
+    color: #a1c2ff;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+.hero h3{
+    color: #3f8fc5;
+    font-size: 20px;
+    width: 190px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.hero p{
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.hero img {
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+.hero hr{
+    position: relative;
+    top: 130px;
+}
+/*ESTA ES LA PARTE DE CONTENIDO*/
+.contenido h1{
+    color: #b1d3ff;
+    text-align: center;
+}
+.contenido hr{
+    position: relative;
+    top: 75px;
+    width: 680px;
+    left: -110px;
+    outline: 2px solid green;
+}/*IMAGEN DE LOS ICONOS*/
+.imagen{
+    background: url(../image/sec-2.jpg)no-repeat;
+    background-size:cover;
+    width: 390px;
+    background-position: center center;
+    height: 340px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+.contenido  .icon-contenido1 {
+   width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin:0 auto;
+    font-size: 40px;
+    text-align: center;
+    box-shadow: -2px 2px 10px black;
+
+    border-radius: 200px;
+    color: white;
+    background-color: #58a5ff;
+    position: relative;
+    top: 50px;
+    left: 200px;
+    
+}
+.contenido  .icon-contenido2 {
+   width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin:0 auto;
+    font-size: 40px;
+    text-align: center;
+    box-shadow: -2px 2px 10px black;
+    border-radius: 200px;
+    color: white;
+    background-color: #58a5ff; 
+    position: relative;
+    top: 80px;
+    left: 200px;
+}
+.contenido  .icon-contenido3 {
+   width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin:0 auto;
+    font-size: 40px;
+    text-align: center;
+    box-shadow: -2px 2px 10px black;
+    border-radius: 200px;
+    color:white;
+    background-color: #58a5ff;
+    position: relative;
+    top: 110px;
+    left: 200px;
+}
+.contenido  .icon-contenido4 {
+    margin:0 auto;
+    text-align: center;
+    color: white;
+    width: 60px;
+    position: relative;
+    top: 150px;
+    left: 370px;
+
+    
+    
+}
+.contenido .imag{
+    margin-top: 60px;
+    width: 470px;
+    
+}
+
+
+.contenido h1 img{
+    width: 190px;
+    
+}
+.contenido .row h5{
+
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 170px;
+
+}
+.contenido h2{
+    margin-left: 25px;
+    font-size: 26px;
+    margin-top: 80px
+}
+.contenido h3{
+    color: blueviolet; font-size: 16px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.contenido p{
+    margin-left: 35px;
+    margin-right: 50px;
+    font-size: 13px;
+    padding-bottom: 4px;
+}
+.contenido ul{
+    font-size: 13px;
+    
+    margin-left: 30px
+}
+.contenido li{
+    padding-bottom: 5px;
+}
+.contenido .row .img-responsive{
+    width: 500px
+}
+.relleno{
+    margin-top: 140px;
+    
+}
+.relleno .container
+{
+    background-color:#4e7fb8;
+    opacity: 0.8;    
+    
+}
+.relleno .container h2{
+    color: white;
+margin: 0 auto;
+    width: 240px;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    
+}
+.relleno .row p{
+    font-size: 12px;
+    text-align: center;
+    padding-top: 4px;
+}
+.relleno .row button{
+    border-radius: 4px;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 120px;
+    background-color:#4e7fb8; 
+    padding: 3px 25px 3px 25px;
+    top: 40px;
+}
+
+footer .container{
+    
+    margin: 0 auto;
+    
+    color: white;
+    background-color: #1c1821;
+    padding: 30px;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    padding: 5px;
+    font-size: 12px;
+}
+footer a{
+    color: darkturquoise;
+}
+footer p{
+    font-size: 12px;
+    float: right;
+    margin-bottom: 0;
+    margin-top: 20px;
+    margin-left: 295px
+
+    
+}
+footer i{
+    font-size:30px;
+    color: blue;
+    float: right;
+    
+
+    
+}
+
+
+
+/*.
 }
 .menu{
 	box-sizing: border-box;
@@ -26,7 +325,7 @@ header
 	background-color: red;
 }
 
-/*.icon-container
+icon-container
 {
 	margin:0  auto;
 	width: 0;
