@@ -46,6 +46,8 @@ header
 	padding: 10px;
 	background-color: #4e7fb8;
     opacity: 0.9;
+    position: relative;
+    bottom: 100px;
     /*position:absolute; El div será ubicado con relación a la pantalla*/
 	/*left:0px; /*A la derecha deje un espacio de 0px*/
 	/*right:0px; /*A la izquierda deje un espacio de 0px*/
