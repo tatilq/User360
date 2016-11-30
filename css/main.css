@@ -1,6 +1,6 @@
 *
 {
-outline: 2px solid blue; 
+outline: 2px solid red; 
 }
 /*CLASES GENERALES*/
 .fondo , .degradado
@@ -15,7 +15,14 @@ h4 {
     text-align: center;
     margin: 0;
 }
+header, footer{ background-color: #244056; padding: 20px 0px;}
 /*ESTE ES EL HEADER*/
+header nav { text-align: center; }
+header nav ul { list-style-type: none; }
+header nav ul li { display: inline; }
+header nav ul li a { font-size: 1.2em; color: white;}
+header nav a:hover { text-decoration: none; }
+/*ESTE ES EL BANNER*/
 .banner
 {
     background: url('../image/large.jpg');
@@ -221,10 +228,7 @@ section .frase h2
     font-size: 20px;
 }
 /**AQU ESTA EL FOOTER*/
-footer{
-    
-    background-color: #244056;
-}
+
 footer p , a
 {
     margin: 0px;
