@@ -1,80 +1,64 @@
-/*header , .hero , .contenido
+*
 {
-	overflow: hidden;
+outline: 2px solid blue; 
 }
-.*/
 /*CLASES GENERALES*/
 .fondo , .degradado
 {
     height: 520px;
     color: white;
 }
+h4 {
+    color: #34b9b9;
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
 /*ESTE ES EL HEADER*/
-
-.fondo
+.banner
 {
     background: url('../image/large.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-    
+    background-size: cover;  
 }
 .degradado
 {
     overflow: hidden;
-    outline: 1px solid green;
     background-color: rgba(38, 38, 38, 0.50); 
 }
- .banner
+ .seccion_prueba
 {
-    
+    margin:0 -15px;
     background-color: #4e7fb8;
-    opacity: 0.6;
-    width: 100%;
-
+    opacity: 0.7;
+    padding: 30px 0;
+   	height: 160px;
 }
-/*
-.frase
+.seccion_prueba button {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+section .frase 
 {
-	margin: 0 auto;
-	color: white;
-	position: relative;
-	top: 100px;
+    display: table;
+    height: 360px;
+    margin: 0 auto;
+	width: 50%;
 }
-.cabeza
+section .frase h2 
 {
-	padding: 10px;
+    display: table-cell;
+    vertical-align: middle;
+	font-size: 40px;
 }
-.menu li a
-{
-	text-decoration: none;
-	color: white;
-}
-.prueba
-{
-	color: white;
-	padding: 10px;
-}
-.pruebalo
-{	
-	padding: 10px;
-	background-color: #4e7fb8;
-    opacity: 0.9;
-    position: relative;
-    bottom: 100px;
-}
-.prueba button
-{
- 	border:2px solid white;
- 	background-color: #4e7fb8;
-    opacity: 0.9;
-    color: white;
-    border-radius: 2px;
-
-}*/
-/*ET ES LA HERO SECTION
-
+/*ESTA ES LA HERO SECTION*/
 .icon-container{
     width: 150px;
     height: 150px;
@@ -87,199 +71,168 @@
     border-radius: 200px;
     color: #a1c2ff;
 }
-.hero h1{
-   
+.hero h1
+{
     color: #a1c2ff;
     font-size: 28px;
     margin-bottom: 40px;
 }
-.hero h3{
+.hero h3
+{
     color: #3f8fc5;
     font-size: 20px;
     width: 190px;
     margin: 0 auto;
     margin-bottom: 20px;
 }
-.hero p{
+.hero p
+{
     margin-left: 45px;
     margin-right: 45px;
 }
-.hero img {
-    margin-bottom: 40px;
-    margin-top: 60px;
+.separador{
+	padding:50px 0px 0px  0px;
 }
-.hero hr{
-    position: relative;
-    top: 130px;
+/*ESTA ES LA PARTE DEL SEPARADOR*/
+.separador img{
+    transform: translateY(-70%);
 }
-/*ESTA ES LA PARTE DE CONTENIDO
-.contenido h1{
-    color: #b1d3ff;
-    text-align: center;
+/*ESTA ES LA PARTE DEL EJEMPLO*/
+.ejemplo_user .user {
+   
+    margin: 20px auto;
 }
-.contenido hr{
-    position: relative;
-    top: 75px;
-    width: 680px;
-    left: -110px;
-    
-}/*IMAGEN DE LOS ICONOS.imagen{
-    background: url(../image/sec-2.jpg)no-repeat;
-    background-size:cover;
-    width: 390px;
-    background-position: center center;
-    height: 340px;
+.ejemplo_user h4 {
+	color: #a1c2ff;
+    display: inline-block;
+    line-height: 20px;
+    font-size: 30px;
+    vertical-align: middle;
+    padding: 0 15px;
+}
+.ejemplo_user p {
+    padding-top: 10px;
+}
+.ejemplo_user .flechados {
     margin: 0 auto;
-    margin-bottom: 90px;
+    display: block;
 }
-.contenido  .icon-contenido1 {
-   width: 50px;
-    height: 50px;
-    line-height: 50px;
-    margin:0 auto;
-    font-size: 40px;
-    text-align: center;
-    box-shadow: -2px 2px 10px black;
-
-    border-radius: 200px;
-    color: white;
-    background-color: #58a5ff;
-    position: relative;
-    top: 50px;
-    left: 200px;
-    
+/*ESTA ES LA SECCION DE LOS PASOS*/
+.pasos {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
-.contenido  .icon-contenido2 {
-   width: 50px;
-    height: 50px;
-    line-height: 50px;
-    margin:0 auto;
-    font-size: 40px;
-    text-align: center;
-    box-shadow: -2px 2px 10px black;
-    border-radius: 200px;
-    color: white;
-    background-color: #58a5ff; 
-    position: relative;
-    top: 80px;
-    left: 200px;
+.pasos .col-md-6 h6 {
+    font-size: 18px;
+    color: #a1c2ff;
+    padding-top: 22px;
 }
-.contenido  .icon-contenido3 {
-   width: 50px;
-    height: 50px;
-    line-height: 50px;
-    margin:0 auto;
-    font-size: 40px;
-    text-align: center;
-    box-shadow: -2px 2px 10px black;
-    border-radius: 200px;
-    color:white;
-    background-color: #58a5ff;
-    position: relative;
-    top: 110px;
-    left: 200px;
-}
-.contenido  .icon-contenido4 {
-    margin:0 auto;
-    text-align: center;
-    color: white;
-    width: 60px;
-    position: relative;
-    top: 150px;
-    left: 370px;  
-}
-.contenido .imag{
-    margin-top: 60px;
-    width: 470px;
-    
-}
-.contenido h1 img{
-    width: 190px;
-    
-}
-.contenido .row h5{
-
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 170px;
-
-}
-.contenido h2{
-    margin-left: 25px;
-    font-size: 26px;
-    margin-top: 80px
-}
-.contenido h3{
-    color: blueviolet; font-size: 16px;
-    margin-left: 25px;
-    margin-right: 25px;
-}
-.contenido p{
-    margin-left: 35px;
-    margin-right: 50px;
-    font-size: 13px;
-    padding-bottom: 4px;
-}
-.contenido ul{
-    font-size: 13px;
-    
-    margin-left: 30px
-}
-.contenido li{
-    padding-bottom: 5px;
-}
-.contenido .row .img-responsive{
-    width: 500px
-}
-.relleno{
-    margin-top: 140px;
-    
-}
-.relleno .container
-{
-    background-color:#4e7fb8;
-    opacity: 0.8;    
-    
-}
-.relleno .container h2{
-    color: white;
-margin: 0 auto;
-    width: 240px;
+.pasos .col-md-6 h5 {
     font-size: 25px;
-    margin-top: 40px;
-    margin-bottom: 30px;   
+    color: #222222;
+    font-weight: bold;
+    padding-top: 10px;
 }
-.relleno .row p{
-    font-size: 12px;
-    text-align: center;
-    padding-top: 4px;
+.pasos .list-pasos {
+    padding-left: 18px;
 }
-.relleno .row button{
-    border-radius: 4px;
-    border: 2px solid white;
+.left {
+    background: url(../image/sec-2.jpg) no-repeat;
+    background-attachment: scroll;
+    background-position: left;
+    background-size: cover;
+    height: 470px;
+}
+.fondo-pasos {
+    background: rgba(66, 66, 87, 0.64);
+    height: 470px;
+    color: #fff;
+}
+.pasos .right {
+    padding-left: 60px;
+}
+.pasos .list-icons {
+    list-style: none;
+}
+.pasos .list-icons li i {
+    font-size: 26px;
+    background: #41b0eb;
+    border-radius: 100%;
+    padding: 10px;
+    display: inline-block;
+    color: #fff;
+}
+.pasos .list-icons .separador {
+    padding-top: 60px;
+    margin-right: -38px;
+}
+.pasos .list-icons li {
+    text-align: right;
+    margin-right: -30px;
+    padding-top: 78px;
+}
+.pasos .row p, .pasos .row li {
+    line-height: 1.8em;
+}
+/*ESTA ES LA PARTE DE CONTENIDO*/
+.uso {
+    margin-top: 100px;
+    margin-bottom: 130px;
+}
+.uso h4 {
+    display: inline-block;
+    line-height: 40px;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+.uso p {
+    padding-top: 10px;
+    line-height: 1.5em;
+}
+.uso ul li {
+    line-height: 1.5em;
+}
+.uso ul {
+    padding: 10px 0 10px 30px;
+}
+.uso small {
+    color: #3490b9;
+    font-weight: normal;
+}
+.etiqueta 
+{
     color: white;
+}
+/*ESTA ES LA SECCION ANTES DEL FOOTER*/
+ .prueba_footer
+{    
+    background-color: #4e7fb8;
+    color: white;
+    opacity: 0.7;
+    padding: 30px 0;
+    height: 160px;
+}
+.prueba_footer button {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px;
     font-size: 20px;
-    position: relative;
-    left: 120px;
-    background-color:#4e7fb8; 
-    padding: 3px 25px 3px 25px;
-    top: 40px;
-}*/
-
+}
 /**AQU ESTA EL FOOTER*/
 footer{
     
-    margin: 0 auto;
-    overflow: hidden;
-    color: white;
-    background-color: #1c1821;
-    padding: 30px;
+    background-color: #244056;
 }
 footer p , a
 {
     margin: 0px;
 }
-
+footer p
+{
+    color: white;
+}
 footer i{
     font-size:30px;
     color: blue;
