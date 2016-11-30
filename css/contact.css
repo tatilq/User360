@@ -1,13 +1,43 @@
-body
+*
 {
-	background: url('../image/large.jpg');
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-		
+    
+    margin: 0px;
+    padding:0px;
 }
-.formu_contacto
+.form_group
 {
-	background-color: white;
+    box-sizing: border-box;
+}
+.contact{
+   background: url('../image/large.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;  
+    height: 600px;
+}
+.formulario{
+    background-color: rgba(80,80,90,0.5);
+    width: 60%;
+    padding: 0 4%;
+    position: relative;
+    top: 20%;
+    left: 5%;
+    margin: 0 auto;
+       
+    border-top: 4px solid #74a3db;
+    border-radius: 5px;
+}
+.formulario h3{
+    border-bottom: 2px solid #ccc;
+}
+.formulario button{
+    background-color: #74a3db;
+    color: white;
+    width:100%;
+    margin-bottom: 8px;
+}
+
+.text p {
+    margin: 0;
 }

@@ -25,6 +25,19 @@
     {
         text-align: center;
     }
+    .formulario
+    {
+        width: 50%;
+        height: auto;
+        position: relative;
+        /*top: 20%;
+        left: 5%;*/
+        right: 0px;
+        left: 0px;
+        bottom: 0px;
+        margin: 0 auto;
+        
+    }
    
 }
 

@@ -1,0 +1,35 @@
+/*CLASES GENERALES*/
+.fondo , .degradado
+{
+    height: 520px;
+    color: white;
+}
+.banner .hero .separador .ejemplo_user .pasos .uso .prueba_footer
+{
+    overflow: hidden;
+}
+.btn_menu
+{
+    background-color: pink;
+    border: 1px solid white;
+}
+footer , header
+{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+h4 {
+    color: #34b9b9;
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
+header, footer{ background-color: #244056; padding: 20px 0px;}
+/*ESTE ES EL HEADER*/
+header nav { text-align: center; }
+header nav ul { list-style-type: none; }
+header nav ul li { display: inline; }
+header nav ul li a { font-size: 1.2em; color: white;}
+header nav a:hover { text-decoration: none; }
+/*ESTE ES EL BANNER*/
