@@ -1,6 +1,3 @@
-*
-{
-}
 
 .banner
 {
@@ -206,19 +203,4 @@ section .frase h2
     margin-top: 20px;
     padding: 10px;
     font-size: 20px;
-}
-/**AQU ESTA EL FOOTER*/
-
-footer p , a
-{
-    margin: 0px;
-}
-footer p
-{
-    color: white;
-}
-footer i{
-    font-size:30px;
-    color: blue;
-    
 }

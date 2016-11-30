@@ -10,8 +10,8 @@
 }
 .btn_menu
 {
-    background-color: pink;
-    border: 1px solid white;
+    background-color: rgba(90, 80, 90, 0.5);
+    border: 2px solid white;
 }
 footer , header
 {
@@ -25,6 +25,10 @@ h4 {
     text-align: center;
     margin: 0;
 }
+ .icon-bar
+ {
+    color: red;
+ }
 header, footer{ background-color: #244056; padding: 20px 0px;}
 /*ESTE ES EL HEADER*/
 header nav { text-align: center; }
@@ -32,4 +36,7 @@ header nav ul { list-style-type: none; }
 header nav ul li { display: inline; }
 header nav ul li a { font-size: 1.2em; color: white;}
 header nav a:hover { text-decoration: none; }
-/*ESTE ES EL BANNER*/
+/**AQU ESTA EL FOOTER*/
+footer p , a{ margin: 0px;}
+footer p { color: white;}
+footer i{font-size:30px; color: blue;}

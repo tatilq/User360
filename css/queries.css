@@ -38,6 +38,10 @@
         margin: 0 auto;
         
     }
+    .btn_enviar
+    {
+        width: 200px;
+    }
    
 }
 
