@@ -34,7 +34,7 @@ header, footer{ background-color: #244056; padding: 20px 0px;}
 header nav { text-align: center; }
 header nav ul { list-style-type: none; }
 header nav ul li { display: inline; }
-header nav ul li a { font-size: 1.2em; color: white;}
+header nav ul li a { font-size: 15px; color: white;}
 header nav a:hover { text-decoration: none; }
 /**AQU ESTA EL FOOTER*/
 footer p , a{ margin: 0px;}

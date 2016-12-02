@@ -42,6 +42,19 @@
     {
         width: 200px;
     }
+    header .img-responsive
+    {
+        display: inline-block;
+        text-align: center;
+    }
+    .navbar
+    {
+        margin-bottom: -20px;
+    }
+    header nav .navbar-nav
+    {
+        text-align: center;
+    }
    
 }
 
