@@ -125,7 +125,7 @@ section .frase h2
     background-position: left;
     background-size: cover;
     width: 100%;
-    height: 470px;
+    
 }
 .fondo-pasos {
     background: rgba(66, 66, 87, 0.64);
@@ -160,7 +160,7 @@ section .frase h2
 }
 /*ESTA ES LA PARTE DE CONTENIDO*/
 .uso {
-    margin-top: 100px;
+
     margin-bottom: 130px;
 }
 .uso h4 {

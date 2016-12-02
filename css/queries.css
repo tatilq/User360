@@ -55,8 +55,11 @@
     {
         display: none;
     }
+   .uso h4, .uso img
+   {
+    text-align: center;
+   }
    
-
    
 }
 
